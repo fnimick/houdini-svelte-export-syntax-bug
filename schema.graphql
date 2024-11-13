@@ -1,0 +1,13 @@
+"""
+A universally unique identifier
+"""
+scalar UUID
+
+"""
+Boolean expression comparing fields on type "UUID"
+"""
+input UUIDFilter {
+  eq: UUID
+  in: [UUID!]
+  neq: UUID
+}
